@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1"
+gem "jekyll", "= 3.9.0"
 
 gem "jekyll-theme-hydejack", "~> 9.1"
 
@@ -30,7 +30,7 @@ gem "kramdown-math-katex"
 gem "duktape"
 
 group :jekyll_plugins do
-  gem "jekyll-default-layout"
+  gem 'jekyll-default-layout', '= 0.1.4'
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
   gem "jekyll-paginate"
@@ -41,8 +41,13 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
+  gem 'rouge', '= 3.26.0'
+  gem 'terminal-table', '= 1.4'
+  gem 'jekyll-sass-converter', '= 1.5.2'
+  gem 'mercenary', '~> 0.3.3'
+  gem 'i18n', '~> 0.7'
 
-  gem "github-pages"
+  gem 'github-pages', '~> 221'
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
