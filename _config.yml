@@ -48,6 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             JAVA
+    url:               /java/
   - title:             Other
     url:               /other/
 
