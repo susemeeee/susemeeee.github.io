@@ -50,6 +50,8 @@ author:
 menu:
   - title:             JAVA
     url:               /java/
+  - title:             Network
+    url:               /network/
   - title:             Other
     url:               /other/
 
