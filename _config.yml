@@ -52,6 +52,8 @@ menu:
     url:               /java/
   - title:             Network
     url:               /network/
+  - title:             Security
+    url:               /security/
   - title:             Other
     url:               /other/
 
