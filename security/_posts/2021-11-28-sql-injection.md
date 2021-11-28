@@ -169,7 +169,7 @@ SELECT * FROM contents WHERE title = 'qqqq' AND ascii(substr((SELECT table_name 
 
 ### 2. Prepared Statement  구문 사용
 
-Prepared Statement 구문을 사용하면 DBMS가 미리 컴파일한 후 사용자의 입력 값을 대입한다. 사용자의 입력 값이 단순 문자열로 인식되기 때문에 공격을 위한 쿼리가 들어가도 제대로 작동하지 않습니다.
+Prepared Statement 구문을 사용하면 DBMS가 미리 컴파일한 후 사용자의 입력 값을 대입한다. 사용자의 입력 값이 단순 문자열로 인식되기 때문에 공격을 위한 쿼리가 들어가도 제대로 작동하지 않는다.
 
 
 
