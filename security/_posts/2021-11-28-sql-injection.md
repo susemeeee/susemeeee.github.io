@@ -6,7 +6,7 @@ categories: Security
 
 # 웹 공격 시리즈 1 - SQL Injection
 
-![](..\..\images\sql-injection.jpeg)
+![](..\..\images\sql-injection.jpeg){: width="100%" height="100%"}
 
 ## SQL Injection이란?
 
