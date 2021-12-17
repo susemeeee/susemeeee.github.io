@@ -50,6 +50,8 @@ author:
 menu:
   - title:             JAVA
     url:               /java/
+  - title:             Spring
+    url:               /spring/
   - title:             Network
     url:               /network/
   - title:             Security
@@ -71,7 +73,8 @@ legal:
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /:categories/:title/
+# permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
